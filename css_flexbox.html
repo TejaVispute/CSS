@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS flexbox</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            background-color: antiquewhite;
+            width: 100%;
+            height: 500px;
+            flex-wrap:wrap ;
+             justify-content: center;
+            justify-content: space-evenly; 
+            /* align-items: center; */
+            /* align-items: flex-start; */
+            /* align-items: stretch; */
+        }
+
+        .box {
+            height: 100px;
+            width: 100px;
+            background-color: blueviolet;
+            border: 2px solid black;
+            margin: 10px;
+
+        }
+
+        /* #item1 {
+            flex-grow: 1;
+        }
+
+        #item2 {
+            flex-grow: 3;
+        }
+
+        #item3 {
+            flex-grow: 1;
+        } */
+    </style>
+</head>
+
+<body>
+    <h1> This is flexbox tutorial</h1>
+    <div class="container">
+        <div class="box" id="item1">This is box1</div>
+        <div class="box" id="item2">This is box2</div>
+        <div class="box" id="item3">This is box3</div>
+        <div class="box" id="item1">This is box1</div>
+        <div class="box" id="item2">This is box2</div>
+        <div class="box" id="item3">This is box3</div>
+        <div class="box" id="item1">This is box1</div>
+        <div class="box" id="item2">This is box2</div>
+        <div class="box" id="item3">This is box3</div>
+
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS float and display</title>
+</head>
+<style>
+    * {
+        margin: 0%;
+        padding: 0%;
+        font-family: sans-serif;
+    }
+
+    .container {
+        padding: 10px;
+        width: 50%;
+        height: 90vh;
+        margin: 15px auto;
+        border: 2px solid grey;
+        background-color: rgb(244, 242, 242);
+        overflow: auto;
+    }
+
+    .container>h1 {
+        text-transform: uppercase;
+        font-size: 3rem;
+        width: 100%;
+        /* margin: 5px auto; */
+        color: rgb(57, 10, 214);
+        padding: 10px 0px;
+        text-align: center;
+        background-color: rgb(167, 175, 181)
+    }
+
+    .container>img {
+        width: 200px;
+        margin: 10px 15px 10px 0px;
+        background-color: rgb(48, 79, 140);
+        padding: 10px;
+        float: left;
+
+    }
+
+    .container>.text {
+        margin: 20px 10px;
+        padding: 10px;
+        word-spacing: 1.5px;
+        letter-spacing: 1px;
+        text-transform: capitalize;
+        text-align: justify;
+        color: rgb(56, 55, 36);
+
+    }
+
+    .clear {
+        clear: left;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <h1>Resume</h1>
+        <img src="https://cdn3.vectorstock.com/i/1000x1000/67/87/businessman-man-character-with-cv-or-resume-vector-23726787.jpg"
+            alt="image">
+
+        <p class="text"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, facilis. Unde veniam neque
+            incidunt perspiciatis nesciunt sunt eveniet facere fugit aspernatur? Ad exercitationem eum accusantium.
+            Magni illo tempora fuga? Explicabo consectetur reiciendis nisi, vero fugiat magni, quidem asperiores earum,
+            harum enim at maxime rem voluptas perspiciatis! Blanditiis ut animi omnis commodi voluptate minus. Magni
+            debitis tempore est sed similique rerum odit, quae hic? Qui ut facilis unde cum maxime placeat recusandae,
+            cupiditate autem alias eveniet </p>
+
+        <p class="text clear">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam iusto praesentium eos
+            pariatur non similique magni inventore eius harum illum, ex vel porro possimus unde quisquam officiis nobis?
+            Illo quas, nulla id dicta odit tempore libero ipsa officiis, in odio magnam esse eius, eveniet accusantium
+            aliquam deleniti sit? Harum, quos consequatur. Qui, dicta reiciendis eos tempore cum asperiores ratione
+            aspernatur nam magnam totam blanditiis provident? Consectetur enim sed dignissimos modi exercitationem
+            reprehenderit itaque aut illum saepe asperiores tenetur expedita commodi, ullam rerum neque architecto
+            repudiandae beatae. Voluptate in blanditiis a laboriosam hic beatae ratione vero, adipisci aspernatur?
+            Dignissimos deleniti obcaecati cupiditate vel neque fugiat id natus veritatis quas adipisci ipsam, modi vero
+            assumenda nam officia voluptate earum voluptatem doloribus iste illum molestiae temporibus laboriosam
+            laudantium. Similique aliquid, culpa sit perferendis enim nam quaerat aut ipsam magnam nesciunt suscipit in
+            ducimus consequuntur odit! Explicabo cupiditate, pariatur a, corrupti similique quos iste unde dolorem,
+            rerum eligendi eos ut repudiandae accusamus alias. Perferendis temporibus porro in harum modi ipsam, omnis
+            eligendi reprehenderit non deserunt ipsa architecto velit dolores doloremque. Inventore, natus cupiditate?
+            Eligendi porro nihil dolores illum accusantium molestias ratione nostrum aliquid. Recusandae repudiandae
+            autem facere facilis vel nobis inventore at accusantium harum!</p>
+        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam iusto praesentium eos pariatur
+            non similique magni inventore eius harum illum, ex vel porro possimus unde quisquam officiis nobis? Illo
+            quas, nulla id dicta odit tempore libero ipsa officiis, in odio magnam esse eius, eveniet accusantium
+            aliquam deleniti sit? Harum, quos consequatur. Qui, dicta reiciendis eos tempore cum asperiores ratione
+            aspernatur nam magnam totam blanditiis provident? Consectetur enim sed dignissimos modi exercitationem
+            reprehenderit itaque aut illum saepe asperiores tenetur expedita commodi, ullam rerum neque architecto
+            repudiandae beatae. Voluptate in blanditiis a laboriosam hic beatae ratione vero, adipisci aspernatur?
+            Dignissimos deleniti obcaecati cupiditate vel neque fugiat id natus veritatis quas adipisci ipsam, modi vero
+            assumenda nam officia voluptate earum voluptatem doloribus iste illum molestiae temporibus laboriosam
+            laudantium. Similique aliquid, culpa sit perferendis enim nam quaerat aut ipsam magnam nesciunt suscipit in
+            ducimus consequuntur odit! Explicabo cupiditate, pariatur a, corrupti similique quos iste unde dolorem,
+            rerum eligendi eos ut repudiandae accusamus alias. Perferendis temporibus porro in harum modi ipsam, omnis
+            eligendi reprehenderit non deserunt ipsa architecto velit dolores doloremque. Inventore, natus cupiditate?
+            Eligendi porro nihil dolores illum accusantium molestias ratione nostrum aliquid. Recusandae repudiandae
+            autem facere facilis vel nobis inventore at accusantium harum!</p>
+
+    </div>
+</body>
+
+</html>

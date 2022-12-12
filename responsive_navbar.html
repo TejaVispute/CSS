@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+</head>
+<style>
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+    .container {
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(93, 77, 77);
+        color:white;
+    }
+    .navbar nav{
+        padding: 15px 10px;
+        
+    }
+    .logo{
+        margin: 15px ;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .navbar nav a {
+        margin-right: 10px;
+        padding: 15px;
+        color: white;
+        
+    }
+    .navbar nav a:hover{
+        background-color: red;
+        border-radius: 15px;
+        
+    }
+
+
+</style>
+<body>
+    <div class="container">
+        <div class="logo">
+            TestBook
+        </div>
+        <div class="navbar">
+
+            <nav>
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href="">Services</a>
+                <a href="">Contactus</a>
+            </nav>
+        </div>
+    </div>
+</body>
+</html>

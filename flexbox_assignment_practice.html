@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Assignment 2</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            text-decoration: none;
+            list-style: none;
+            font-family: sans-serif;
+        }
+        #navbar{
+            display: flex;
+            justify-content: space-around;
+            padding: 15px;
+            background-color: rgb(52, 96, 197);
+        }
+        .left_icon{
+            color: whitesmoke;
+            font-size: 22px;
+        }
+        .home_section ul{
+            display:flex;
+            color: whitesmoke;
+            font-size: 20px;
+            
+        }
+
+        .home_section ul li{
+            padding: 5px 15px;
+            margin: 0px 5px;
+        }
+
+        /* container starts from here */
+        .container{
+            display: flex;
+            width: 100%;
+            height: 60vh;
+            background-color: rgb(35, 35, 184);
+        }
+
+        .container .left_section{
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            align-items: center;
+            justify-content: center;
+            color: white;
+           width: 100vh;
+           height: 70vh;
+       
+           
+        }
+
+        .crash_cource{
+            font-size: 50px;
+            text-transform: capitalize;
+            padding: 15px;
+        }
+
+        .left_section .text{
+            padding: 10px;
+            font-size: 18px;
+        }
+
+        .right_section{
+            display: flex;
+            width: 100vh;
+           height: 70vh;
+         justify-content: center;
+         align-items: center;            
+        }
+
+        .right_section .main-box{
+           display: grid;
+            width: 400px;
+            height: 400px;
+            grid-template-columns:100px 100px 100px;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+           
+        }
+
+        .main-box .items{
+            color:  whitesmoke;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100px;
+            width: 100px;
+            border:10px solid skyblue;
+        }
+        .bottom_part{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 300px;
+            background-color: skyblue;
+        }
+
+        .bottom_part .boxes{
+            display: flex;
+            align-items: center;
+            justify-content:center;
+            margin: 10px;
+            height: 200px;
+            width: 400px;
+            border:2px solid black;
+            border-radius: 10px;
+            background-color: rgb(35, 35, 184);
+            color: whitesmoke;
+        }
+    </style>
+
+</head>
+<body>
+   
+        <div id="navbar">
+            <div class="left_icon">
+                FLEXBOX
+            </div>
+
+            <div class="home_section">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <div class="left_section">
+                <div class="crash_cource">  Flex box Crash Cource</div>
+              
+
+                <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam cum numquam nemo ex? Provident dignissimos fugit quod, aliquam sit eligendi.</p>
+            </div>
+
+            <div class="right_section">
+                <div class="main-box">
+                    <div class="items">Box1</div>
+                    <div class="items">box2</div>
+                    <div class="items">box3</div>
+                    <div class="items">box4</div>
+                    <div class="items">box5</div>
+                    <div class="items">box6</div>
+                    <div class="items">box7</div>
+                    <div class="items">box8</div>
+                    <div class="items">box-9</div>
+                </div>
+            </div>
+
+          
+
+        </div>
+        <div class="bottom_part">
+
+            <div class="boxes">Box1</div>
+            <div class="boxes">Box2</div>
+            <div class="boxes">Box3</div>
+        </div>
+</body>
+</html>

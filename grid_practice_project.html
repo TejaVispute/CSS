@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Practice Project</title>
+</head>
+<style>
+    .container {
+        box-sizing: border-box;
+        display: grid;
+        padding: 20px;
+        gap: 10px;
+        grid-template-areas:
+        'topleft topleft topleft middle right'
+        'bottomleft bottommiddle bottommiddle bottommiddle right';
+        background-color:steelblue;
+           
+    }
+
+    .container>div {
+        text-transform: uppercase;
+        padding: 150px;
+        font-size: 20px;
+        border: 2px solid black;
+        border-radius: 5px;
+        background-color:darkblue;
+        color: whitesmoke;
+    }
+
+    #item1 {
+        grid-area: topleft;
+    }
+
+    #item2 {
+        grid-area: middle;
+    }
+
+    #item3 {
+        grid-area: right;
+    }
+
+    #item4 {
+        grid-area: bottomleft;
+    }
+
+    #item5 {
+        grid-area: bottommiddle;
+    }
+</style>
+
+
+<body>
+    <div class="container">
+        <div id="item1">top left</div>
+        <div id="item2">middle</div>
+        <div id="item3">right</div>
+        <div id="item4">bottomleft</div>
+        <div id="item5">bottom middle</div>
+    </div>
+</body>
+
+</html>

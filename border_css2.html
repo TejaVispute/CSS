@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS borders</title>
+    <style>
+        body{
+            background: url("https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dmlld3xlbnwwfHwwfHw%3D&w=1000&q=80");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size:cover;
+            
+        }
+        h1{
+            color: whitesmoke;
+            border-style: groove;
+            border-color:red;
+            border-width:3px;
+
+            border-top-style:dashed;
+            border-top-color:violet;
+            border-bottom-style:dashed;
+            border-bottom-color:violet;
+            border-left-style:dotted;
+            border-left-color:black;
+            border-right-style:dotted;
+            border-right-color:black;
+
+            border-top-left-radius:20px;
+            border-bottom-left-radius:20px;
+            border-top-right-radius:20px;
+            border-bottom-right-radius:20px;
+        }
+        p{
+            color:whitesmoke;
+            border:2px solid black;
+            border-radius:20px;
+
+        }
+        a{
+            border:2px solid orange;
+            border-radius: 20px 20px 30px 40px;
+            color:orange;
+            text-decoration: none;
+            padding:2px;
+        }
+        a:hover{
+            color:white;
+            background-color:orange;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <h1> This is my heading</h1>
+        <p> This is my paragraph</p>
+    </div>
+    <a href="#">Click Here</a>
+    <a href="#">Click Here</a>
+    <a href="#">Click Here</a>
+    <a href="#">Click Here</a>
+    <a href="#">Click Here</a>
+    <a href="#">Click Here</a>
+    <a href="#">Go to Google</a>
+
+    <p></p>
+</body>
+</html>

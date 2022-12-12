@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        .container {
+            background-color: rgb(144, 143, 164);
+        }
+
+        .box {
+            height: 20px;
+            width: 200px;
+            background-color: rgb(48, 169, 62);
+            position: relative;
+            animation-name: size;
+            animation-duration: 4s;
+            animation-iteration-count: 2;
+            animation-fill-mode:backwards;
+            animation-timing-function:ease-in-out ;
+            /* animation-direction: reverse; */
+        }
+
+        @keyframes size {
+            from {
+                width: 0%;
+            }
+
+            to {
+                width: 100%;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            This is box
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS borders</title>
+    <style>
+        h1 {
+            color: orange;
+
+        }
+        p{
+            /* border-top: 1px solid  black;
+            border-bottom: 1px dotted green;
+            border-left: 1px dashed blue;
+            border-right: 1px double pink; */
+
+
+            /* border-style: solid double dotted dashed; */
+            /* border-style: dotted dashed;
+            border-top-width:5px;
+            border-bottom-width:7px;
+            border-left-width:7px;
+            border-right-width:5px; */
+          
+            /* border-style: dashed;
+            border-width:5px 5px 5px 5px;
+            border-top-color:rgb(141, 17, 89);
+            border-bottom-color:rgb(141, 17, 89);
+            border-left-color:grey;
+            border-radius:10px; */
+
+        }
+        a{
+            border:2px solid orange;
+            /* border-style: solid; */
+            padding: 4px 10px;
+            /* border-color:orange; */
+            /* border-width:2px; */
+            border-radius:10px;
+            border-top-left-radius:15px;
+            border-bottom-right-radius:15px;
+        }
+        a:hover{
+            color:white;
+            background-color: orange;
+        }
+        table,tr,td,th{
+            border:2px solid red;
+            border-collapse: collapse;
+            background-color: pink;
+        }
+        .paragraph{
+            border-style:ridge;
+            border-width: thick;
+            border-radius:20px;
+            border-color:pink yellowgreen grey red;
+        }
+    </style>
+</head>
+<body>
+    <h1> This is first heading</h1>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, laudantium!</p>
+    <a href="#">Click Me</a>  <br><br>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+            <tbody>
+                <tr>
+                    <td>Tejas</td>
+                    <td>23</td>
+                </tr>
+                <tr>
+                    <td>Roshan</td>
+                    <td>23</td>
+                </tr>
+            </tbody>
+        </thead>
+    </table>
+
+
+    <p class="paragraph"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam tempora error ab, praesentium aut rem exercitationem corporis provident quam inventore eligendi temporibus beatae dolorum maiores! Exercitationem libero dolorum non distinctio sed quam blanditiis necessitatibus facilis quisquam doloremque itaque velit, cumque qui dignissimos praesentium accusantium a error quaerat tenetur porro nobis.</p>
+</body>
+</html>
